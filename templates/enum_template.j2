@@ -5,5 +5,4 @@ class {{ enum.name }}(enum.Enum):
     {% for val in enum["values"] %}
     {{ val.upper().replace(" ", "_") }} = "{{ val }}"
     {% endfor %}
-
 {% endfor %}

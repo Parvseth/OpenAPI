@@ -426,3 +426,914 @@ UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f527' in posit
 
 2025-07-07 01:52:03,077 [INFO] 🎉 Pipeline completed!
 2025-07-07 01:52:26,681 [INFO] ✅ Generated dynamic main.py
+2025-07-07 23:04:50,988 [INFO] Created models
+2025-07-07 23:04:50,988 [INFO] Created routes
+2025-07-07 23:04:50,988 [INFO] Created schemas
+2025-07-07 23:04:50,988 [INFO] Created tests
+2025-07-07 23:04:50,988 [INFO] Created logs
+2025-07-07 23:04:50,988 [INFO] Created templates
+2025-07-07 23:04:50,988 [INFO] Running generate_enums.py
+2025-07-07 23:04:52,471 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 23:04:52,471 [INFO] ✅ Extracted models from schemas.
+2025-07-07 23:04:52,595 [ERROR] generate_enums.py failed
+2025-07-07 23:07:38,219 [INFO] Created models
+2025-07-07 23:07:38,219 [INFO] Created routes
+2025-07-07 23:07:38,219 [INFO] Created schemas
+2025-07-07 23:07:38,219 [INFO] Created tests
+2025-07-07 23:07:38,219 [INFO] Created logs
+2025-07-07 23:07:38,226 [INFO] Created templates
+2025-07-07 23:07:38,226 [INFO] Running generate_enums.py
+2025-07-07 23:07:39,499 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 23:07:39,499 [INFO] ✅ Extracted 6 models.
+2025-07-07 23:07:39,508 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-07 23:07:39,572 [INFO] Running generate_sqlalchemy.py
+2025-07-07 23:07:40,666 [INFO] Generated model: ApiResponse
+2025-07-07 23:07:40,666 [INFO] Generated model: Category
+2025-07-07 23:07:40,679 [INFO] Generated model: Pet
+2025-07-07 23:07:40,679 [INFO] Generated model: Tag
+2025-07-07 23:07:40,680 [INFO] Generated model: Order
+2025-07-07 23:07:40,680 [INFO] Generated model: User
+2025-07-07 23:07:40,746 [INFO] Running generate_pydantic.py
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: Category
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: Pet
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: Tag
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: Order
+2025-07-07 23:07:41,710 [INFO] Generated Pydantic schema: User
+2025-07-07 23:07:41,772 [INFO] Running generate_routes.py
+2025-07-07 23:07:42,724 [INFO] Generated route for: ApiResponse
+2025-07-07 23:07:42,735 [INFO] Generated route for: Category
+2025-07-07 23:07:42,735 [INFO] Generated route for: Pet
+2025-07-07 23:07:42,738 [INFO] Generated route for: Tag
+2025-07-07 23:07:42,740 [INFO] Generated route for: Order
+2025-07-07 23:07:42,741 [INFO] Generated route for: User
+2025-07-07 23:07:42,895 [INFO] Running generate_tests.py
+2025-07-07 23:07:44,430 [INFO] Generated tests for: ApiResponse
+2025-07-07 23:07:44,434 [INFO] Generated tests for: Category
+2025-07-07 23:07:44,436 [INFO] Generated tests for: Pet
+2025-07-07 23:07:44,438 [INFO] Generated tests for: Tag
+2025-07-07 23:07:44,442 [INFO] Generated tests for: Order
+2025-07-07 23:07:44,443 [INFO] Generated tests for: User
+2025-07-07 23:07:44,629 [INFO] Running generate_main.py
+2025-07-07 23:07:45,447 [INFO] ✅ main.py generated successfully.
+2025-07-07 23:07:45,501 [INFO] All generation scripts completed successfully.
+2025-07-07 23:15:37,528 [INFO] Created models
+2025-07-07 23:15:37,528 [INFO] Created routes
+2025-07-07 23:15:37,528 [INFO] Created schemas
+2025-07-07 23:15:37,528 [INFO] Created tests
+2025-07-07 23:15:37,528 [INFO] Created logs
+2025-07-07 23:15:37,528 [INFO] Created templates
+2025-07-07 23:15:37,528 [INFO] Running generate_enums.py
+2025-07-07 23:15:38,440 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 23:15:38,440 [INFO] ✅ Extracted 6 models.
+2025-07-07 23:15:38,456 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-07 23:15:38,522 [INFO] Running generate_sqlalchemy.py
+2025-07-07 23:15:39,557 [INFO] Generated model: ApiResponse
+2025-07-07 23:15:39,559 [INFO] Generated model: Category
+2025-07-07 23:15:39,559 [INFO] Generated model: Pet
+2025-07-07 23:15:39,561 [INFO] Generated model: Tag
+2025-07-07 23:15:39,561 [INFO] Generated model: Order
+2025-07-07 23:15:39,561 [INFO] Generated model: User
+2025-07-07 23:15:39,659 [INFO] Running generate_pydantic.py
+2025-07-07 23:15:41,244 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-07 23:15:41,244 [INFO] Generated Pydantic schema: Category
+2025-07-07 23:15:41,255 [INFO] Generated Pydantic schema: Pet
+2025-07-07 23:15:41,257 [INFO] Generated Pydantic schema: Tag
+2025-07-07 23:15:41,258 [INFO] Generated Pydantic schema: Order
+2025-07-07 23:15:41,260 [INFO] Generated Pydantic schema: User
+2025-07-07 23:15:41,400 [INFO] Running generate_routes.py
+2025-07-07 23:15:43,033 [ERROR] generate_routes.py failed
+2025-07-07 23:19:25,440 [INFO] Created models
+2025-07-07 23:19:25,440 [INFO] Created routes
+2025-07-07 23:19:25,440 [INFO] Created schemas
+2025-07-07 23:19:25,440 [INFO] Created tests
+2025-07-07 23:19:25,440 [INFO] Created logs
+2025-07-07 23:19:25,440 [INFO] Created templates
+2025-07-07 23:19:25,440 [INFO] Running generate_enums.py
+2025-07-07 23:19:26,397 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 23:19:26,397 [INFO] ✅ Extracted 6 models.
+2025-07-07 23:19:26,404 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-07 23:19:26,470 [INFO] Running generate_sqlalchemy.py
+2025-07-07 23:19:27,349 [INFO] Generated model: ApiResponse
+2025-07-07 23:19:27,349 [INFO] Generated model: Category
+2025-07-07 23:19:27,349 [INFO] Generated model: Pet
+2025-07-07 23:19:27,360 [INFO] Generated model: Tag
+2025-07-07 23:19:27,360 [INFO] Generated model: Order
+2025-07-07 23:19:27,360 [INFO] Generated model: User
+2025-07-07 23:19:27,424 [INFO] Running generate_pydantic.py
+2025-07-07 23:19:28,286 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-07 23:19:28,286 [INFO] Generated Pydantic schema: Category
+2025-07-07 23:19:28,286 [INFO] Generated Pydantic schema: Pet
+2025-07-07 23:19:28,286 [INFO] Generated Pydantic schema: Tag
+2025-07-07 23:19:28,286 [INFO] Generated Pydantic schema: Order
+2025-07-07 23:19:28,296 [INFO] Generated Pydantic schema: User
+2025-07-07 23:19:28,367 [INFO] Running generate_routes.py
+2025-07-07 23:19:29,271 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-07 23:19:29,271 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-07 23:19:29,278 [INFO] ✅ Generated routes for: Pet
+2025-07-07 23:19:29,278 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-07 23:19:29,278 [INFO] ✅ Generated routes for: Order
+2025-07-07 23:19:29,278 [INFO] ✅ Generated routes for: User
+2025-07-07 23:19:29,364 [INFO] Running generate_tests.py
+2025-07-07 23:19:30,652 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-07 23:19:30,652 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-07 23:19:30,654 [INFO] ✅ Generated tests for: Pet
+2025-07-07 23:19:30,654 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-07 23:19:30,654 [INFO] ✅ Generated tests for: Order
+2025-07-07 23:19:30,656 [INFO] ✅ Generated tests for: User
+2025-07-07 23:19:30,815 [INFO] Running generate_main.py
+2025-07-07 23:19:32,432 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-07 23:19:32,552 [INFO] All generation scripts completed successfully.
+2025-07-08 00:20:18,943 [INFO] Created models
+2025-07-08 00:20:18,943 [INFO] Created routes
+2025-07-08 00:20:18,943 [INFO] Created schemas
+2025-07-08 00:20:18,943 [INFO] Created tests
+2025-07-08 00:20:18,943 [INFO] Created logs
+2025-07-08 00:20:18,943 [INFO] Created templates
+2025-07-08 00:20:18,943 [INFO] Running generate_enums.py
+2025-07-08 00:20:19,946 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:20:19,946 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:20:19,946 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:20:19,993 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:20:20,559 [INFO] Generated model: ApiResponse
+2025-07-08 00:20:20,559 [INFO] Generated model: Category
+2025-07-08 00:20:20,559 [INFO] Generated model: Pet
+2025-07-08 00:20:20,575 [INFO] Generated model: Tag
+2025-07-08 00:20:20,575 [INFO] Generated model: Order
+2025-07-08 00:20:20,575 [INFO] Generated model: User
+2025-07-08 00:20:20,622 [INFO] Running generate_pydantic.py
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:20:21,228 [INFO] Generated Pydantic schema: User
+2025-07-08 00:20:21,275 [INFO] Running generate_routes.py
+2025-07-08 00:20:21,840 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:20:21,840 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:20:21,840 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:20:21,840 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:20:21,840 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:20:21,840 [INFO] ✅ Generated routes for: User
+2025-07-08 00:20:21,892 [INFO] Running generate_tests.py
+2025-07-08 00:20:22,468 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:20:22,468 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:20:22,468 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:20:22,468 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:20:22,468 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:20:22,468 [INFO] ✅ Generated tests for: User
+2025-07-08 00:20:22,516 [INFO] Running generate_main.py
+2025-07-08 00:20:23,065 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:20:23,113 [INFO] All generation scripts completed successfully.
+2025-07-08 00:22:07,363 [INFO] Created models
+2025-07-08 00:22:07,363 [INFO] Created routes
+2025-07-08 00:22:07,379 [INFO] Created schemas
+2025-07-08 00:22:07,379 [INFO] Created tests
+2025-07-08 00:22:07,379 [INFO] Created logs
+2025-07-08 00:22:07,380 [INFO] Created templates
+2025-07-08 00:22:07,380 [INFO] Running generate_enums.py
+2025-07-08 00:22:07,928 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:22:07,928 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:22:07,928 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:22:07,988 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:22:08,511 [INFO] Generated model: ApiResponse
+2025-07-08 00:22:08,511 [INFO] Generated model: Category
+2025-07-08 00:22:08,511 [INFO] Generated model: Pet
+2025-07-08 00:22:08,511 [INFO] Generated model: Tag
+2025-07-08 00:22:08,511 [INFO] Generated model: Order
+2025-07-08 00:22:08,511 [INFO] Generated model: User
+2025-07-08 00:22:08,558 [INFO] Running generate_pydantic.py
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:22:09,106 [INFO] Generated Pydantic schema: User
+2025-07-08 00:22:09,154 [INFO] Running generate_routes.py
+2025-07-08 00:22:09,689 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:22:09,689 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:22:09,689 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:22:09,689 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:22:09,689 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:22:09,689 [INFO] ✅ Generated routes for: User
+2025-07-08 00:22:09,746 [INFO] Running generate_tests.py
+2025-07-08 00:22:10,374 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:22:10,374 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:22:10,374 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:22:10,374 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:22:10,374 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:22:10,374 [INFO] ✅ Generated tests for: User
+2025-07-08 00:22:10,439 [INFO] Running generate_main.py
+2025-07-08 00:22:11,012 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:22:11,076 [INFO] All generation scripts completed successfully.
+2025-07-08 00:26:42,461 [INFO] Created models
+2025-07-08 00:26:42,461 [INFO] Created routes
+2025-07-08 00:26:42,461 [INFO] Created schemas
+2025-07-08 00:26:42,461 [INFO] Created tests
+2025-07-08 00:26:42,461 [INFO] Created logs
+2025-07-08 00:26:42,461 [INFO] Created templates
+2025-07-08 00:26:42,461 [INFO] Running generate_enums.py
+2025-07-08 00:26:43,008 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:26:43,008 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:26:43,012 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:26:43,067 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:26:43,581 [INFO] Generated model: ApiResponse
+2025-07-08 00:26:43,597 [INFO] Generated model: Category
+2025-07-08 00:26:43,599 [INFO] Generated model: Pet
+2025-07-08 00:26:43,599 [INFO] Generated model: Tag
+2025-07-08 00:26:43,599 [INFO] Generated model: Order
+2025-07-08 00:26:43,599 [INFO] Generated model: User
+2025-07-08 00:26:43,645 [INFO] Running generate_pydantic.py
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:26:44,162 [INFO] Generated Pydantic schema: User
+2025-07-08 00:26:44,210 [INFO] Running generate_routes.py
+2025-07-08 00:26:44,765 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:26:44,765 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:26:44,765 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:26:44,765 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:26:44,765 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:26:44,765 [INFO] ✅ Generated routes for: User
+2025-07-08 00:26:44,850 [INFO] Running generate_tests.py
+2025-07-08 00:26:45,381 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:26:45,381 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:26:45,381 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:26:45,381 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:26:45,381 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:26:45,381 [INFO] ✅ Generated tests for: User
+2025-07-08 00:26:45,429 [INFO] Running generate_main.py
+2025-07-08 00:26:45,971 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:26:46,035 [INFO] All generation scripts completed successfully.
+2025-07-08 00:33:23,819 [INFO] Created models
+2025-07-08 00:33:23,819 [INFO] Created routes
+2025-07-08 00:33:23,819 [INFO] Created schemas
+2025-07-08 00:33:23,819 [INFO] Created tests
+2025-07-08 00:33:23,819 [INFO] Created logs
+2025-07-08 00:33:23,819 [INFO] Created templates
+2025-07-08 00:33:23,819 [INFO] Running generate_enums.py
+2025-07-08 00:33:24,360 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:33:24,360 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:33:24,360 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:33:24,416 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:33:24,965 [INFO] Generated model: ApiResponse
+2025-07-08 00:33:24,966 [INFO] Generated model: Category
+2025-07-08 00:33:24,966 [INFO] Generated model: Pet
+2025-07-08 00:33:24,967 [INFO] Generated model: Tag
+2025-07-08 00:33:24,967 [INFO] Generated model: Order
+2025-07-08 00:33:24,967 [INFO] Generated model: User
+2025-07-08 00:33:25,007 [INFO] Running generate_pydantic.py
+2025-07-08 00:33:25,551 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:33:25,552 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:33:25,552 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:33:25,552 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:33:25,552 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:33:25,553 [INFO] Generated Pydantic schema: User
+2025-07-08 00:33:25,600 [INFO] Running generate_routes.py
+2025-07-08 00:33:26,196 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:33:26,196 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:33:26,196 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:33:26,196 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:33:26,196 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:33:26,196 [INFO] ✅ Generated routes for: User
+2025-07-08 00:33:26,259 [INFO] Running create_tables.py
+2025-07-08 00:33:27,185 [INFO] Running generate_tests.py
+2025-07-08 00:33:28,063 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:33:28,063 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:33:28,064 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:33:28,064 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:33:28,065 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:33:28,066 [INFO] ✅ Generated tests for: User
+2025-07-08 00:33:28,191 [INFO] Running generate_main.py
+2025-07-08 00:33:28,889 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:33:28,958 [INFO] All generation scripts completed successfully.
+2025-07-08 00:38:42,875 [INFO] Created models
+2025-07-08 00:38:42,875 [INFO] Created routes
+2025-07-08 00:38:42,875 [INFO] Created schemas
+2025-07-08 00:38:42,875 [INFO] Created tests
+2025-07-08 00:38:42,890 [INFO] Created logs
+2025-07-08 00:38:42,890 [INFO] Created templates
+2025-07-08 00:38:42,890 [INFO] Running generate_enums.py
+2025-07-08 00:38:43,431 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:38:43,431 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:38:43,447 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:38:43,505 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:38:44,028 [INFO] Generated model: ApiResponse
+2025-07-08 00:38:44,028 [INFO] Generated model: Category
+2025-07-08 00:38:44,028 [INFO] Generated model: Pet
+2025-07-08 00:38:44,028 [INFO] Generated model: Tag
+2025-07-08 00:38:44,028 [INFO] Generated model: Order
+2025-07-08 00:38:44,028 [INFO] Generated model: User
+2025-07-08 00:38:44,091 [INFO] Running generate_pydantic.py
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:38:44,719 [INFO] Generated Pydantic schema: User
+2025-07-08 00:38:44,827 [INFO] Running generate_routes.py
+2025-07-08 00:38:45,391 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:38:45,391 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:38:45,391 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:38:45,399 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:38:45,399 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:38:45,399 [INFO] ✅ Generated routes for: User
+2025-07-08 00:38:45,450 [INFO] Running create_tables.py
+2025-07-08 00:38:46,658 [INFO] Running generate_tests.py
+2025-07-08 00:38:47,321 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:38:47,321 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:38:47,321 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:38:47,321 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:38:47,321 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:38:47,321 [INFO] ✅ Generated tests for: User
+2025-07-08 00:38:47,379 [INFO] Running generate_main.py
+2025-07-08 00:38:47,922 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:38:47,960 [INFO] All generation scripts completed successfully.
+2025-07-08 00:52:00,174 [INFO] Created models
+2025-07-08 00:52:00,174 [INFO] Created routes
+2025-07-08 00:52:00,174 [INFO] Created schemas
+2025-07-08 00:52:00,174 [INFO] Created tests
+2025-07-08 00:52:00,174 [INFO] Created logs
+2025-07-08 00:52:00,174 [INFO] Created templates
+2025-07-08 00:52:00,174 [INFO] Running generate_enums.py
+2025-07-08 00:52:00,701 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 00:52:00,701 [INFO] ✅ Extracted 6 models.
+2025-07-08 00:52:00,717 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 00:52:00,772 [INFO] Running generate_sqlalchemy.py
+2025-07-08 00:52:01,281 [INFO] Generated model: ApiResponse
+2025-07-08 00:52:01,281 [INFO] Generated model: Category
+2025-07-08 00:52:01,297 [INFO] Generated model: Pet
+2025-07-08 00:52:01,297 [INFO] Generated model: Tag
+2025-07-08 00:52:01,297 [INFO] Generated model: Order
+2025-07-08 00:52:01,297 [INFO] Generated model: User
+2025-07-08 00:52:01,346 [INFO] Running generate_pydantic.py
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: Category
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: Pet
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: Tag
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: Order
+2025-07-08 00:52:01,895 [INFO] Generated Pydantic schema: User
+2025-07-08 00:52:01,944 [INFO] Running generate_routes.py
+2025-07-08 00:52:02,460 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 00:52:02,460 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 00:52:02,460 [INFO] ✅ Generated routes for: Pet
+2025-07-08 00:52:02,460 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 00:52:02,476 [INFO] ✅ Generated routes for: Order
+2025-07-08 00:52:02,476 [INFO] ✅ Generated routes for: User
+2025-07-08 00:52:02,523 [INFO] Running create_tables.py
+2025-07-08 00:52:03,246 [INFO] Running generate_tests.py
+2025-07-08 00:52:03,759 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 00:52:03,759 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 00:52:03,759 [INFO] ✅ Generated tests for: Pet
+2025-07-08 00:52:03,759 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 00:52:03,759 [INFO] ✅ Generated tests for: Order
+2025-07-08 00:52:03,759 [INFO] ✅ Generated tests for: User
+2025-07-08 00:52:03,806 [INFO] Running generate_main.py
+2025-07-08 00:52:04,338 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 00:52:04,394 [INFO] All generation scripts completed successfully.
+2025-07-08 01:00:43,424 [INFO] Created models
+2025-07-08 01:00:43,424 [INFO] Created routes
+2025-07-08 01:00:43,424 [INFO] Created schemas
+2025-07-08 01:00:43,425 [INFO] Created tests
+2025-07-08 01:00:43,425 [INFO] Created logs
+2025-07-08 01:00:43,425 [INFO] Created templates
+2025-07-08 01:00:43,425 [INFO] Running generate_enums.py
+2025-07-08 01:00:43,948 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:00:43,948 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:00:43,948 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:00:44,000 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:00:44,536 [INFO] Generated model: ApiResponse
+2025-07-08 01:00:44,536 [INFO] Generated model: Category
+2025-07-08 01:00:44,536 [INFO] Generated model: Pet
+2025-07-08 01:00:44,536 [INFO] Generated model: Tag
+2025-07-08 01:00:44,538 [INFO] Generated model: Order
+2025-07-08 01:00:44,538 [INFO] Generated model: User
+2025-07-08 01:00:44,589 [INFO] Running generate_pydantic.py
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:00:45,137 [INFO] Generated Pydantic schema: User
+2025-07-08 01:00:45,185 [INFO] Running generate_routes.py
+2025-07-08 01:00:45,735 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:00:45,735 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:00:45,735 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:00:45,735 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:00:45,735 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:00:45,735 [INFO] ✅ Generated routes for: User
+2025-07-08 01:00:45,781 [INFO] Running create_tables.py
+2025-07-08 01:00:46,716 [INFO] Running generate_tests.py
+2025-07-08 01:00:47,434 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:00:47,434 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:00:47,435 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:00:47,435 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:00:47,436 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:00:47,437 [INFO] ✅ Generated tests for: User
+2025-07-08 01:00:47,486 [INFO] Running generate_main.py
+2025-07-08 01:00:48,021 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:00:48,087 [INFO] All generation scripts completed successfully.
+2025-07-08 01:13:33,835 [INFO] Created models
+2025-07-08 01:13:33,835 [INFO] Created routes
+2025-07-08 01:13:33,835 [INFO] Created schemas
+2025-07-08 01:13:33,835 [INFO] Created tests
+2025-07-08 01:13:33,835 [INFO] Created logs
+2025-07-08 01:13:33,835 [INFO] Created templates
+2025-07-08 01:13:33,835 [INFO] Running generate_enums.py
+2025-07-08 01:13:34,376 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:13:34,376 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:13:34,382 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:13:34,421 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:13:34,959 [INFO] Generated model: ApiResponse
+2025-07-08 01:13:34,959 [INFO] Generated model: Category
+2025-07-08 01:13:34,959 [INFO] Generated model: Pet
+2025-07-08 01:13:34,961 [INFO] Generated model: Tag
+2025-07-08 01:13:34,961 [INFO] Generated model: Order
+2025-07-08 01:13:34,961 [INFO] Generated model: User
+2025-07-08 01:13:35,009 [INFO] Running generate_pydantic.py
+2025-07-08 01:13:35,542 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:13:35,542 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:13:35,543 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:13:35,543 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:13:35,544 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:13:35,544 [INFO] Generated Pydantic schema: User
+2025-07-08 01:13:35,583 [INFO] Running generate_routes.py
+2025-07-08 01:13:36,116 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:13:36,116 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:13:36,116 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:13:36,116 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:13:36,116 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:13:36,116 [INFO] ✅ Generated routes for: User
+2025-07-08 01:13:36,163 [INFO] Running create_tables.py
+2025-07-08 01:13:37,006 [INFO] Running generate_tests.py
+2025-07-08 01:13:37,514 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:13:37,514 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:13:37,514 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:13:37,514 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:13:37,514 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:13:37,514 [INFO] ✅ Generated tests for: User
+2025-07-08 01:13:37,562 [INFO] Running generate_main.py
+2025-07-08 01:13:38,108 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:13:38,150 [INFO] All generation scripts completed successfully.
+2025-07-08 01:23:42,597 [INFO] Created models
+2025-07-08 01:23:42,597 [INFO] Created routes
+2025-07-08 01:23:42,597 [INFO] Created schemas
+2025-07-08 01:23:42,597 [INFO] Created tests
+2025-07-08 01:23:42,597 [INFO] Created logs
+2025-07-08 01:23:42,597 [INFO] Created templates
+2025-07-08 01:23:42,597 [INFO] Running generate_enums.py
+2025-07-08 01:23:43,149 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:23:43,149 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:23:43,149 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:23:43,210 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:23:43,737 [INFO] Generated model: ApiResponse
+2025-07-08 01:23:43,737 [INFO] Generated model: Category
+2025-07-08 01:23:43,737 [INFO] Generated model: Pet
+2025-07-08 01:23:43,737 [INFO] Generated model: Tag
+2025-07-08 01:23:43,737 [INFO] Generated model: Order
+2025-07-08 01:23:43,737 [INFO] Generated model: User
+2025-07-08 01:23:43,784 [INFO] Running generate_pydantic.py
+2025-07-08 01:23:44,327 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:23:44,329 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:23:44,329 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:23:44,329 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:23:44,329 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:23:44,331 [INFO] Generated Pydantic schema: User
+2025-07-08 01:23:44,408 [INFO] Running generate_routes.py
+2025-07-08 01:23:44,992 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:23:44,992 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:23:44,992 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:23:44,992 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:23:44,994 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:23:44,994 [INFO] ✅ Generated routes for: User
+2025-07-08 01:23:45,040 [INFO] Running create_tables.py
+2025-07-08 01:23:45,780 [INFO] Running generate_tests.py
+2025-07-08 01:23:46,463 [ERROR] generate_tests.py failed
+2025-07-08 01:24:29,340 [INFO] Created models
+2025-07-08 01:24:29,340 [INFO] Created routes
+2025-07-08 01:24:29,340 [INFO] Created schemas
+2025-07-08 01:24:29,340 [INFO] Created tests
+2025-07-08 01:24:29,340 [INFO] Created logs
+2025-07-08 01:24:29,340 [INFO] Created templates
+2025-07-08 01:24:29,340 [INFO] Running generate_enums.py
+2025-07-08 01:24:29,876 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:24:29,876 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:24:29,876 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:24:29,938 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:24:30,509 [INFO] Generated model: ApiResponse
+2025-07-08 01:24:30,510 [INFO] Generated model: Category
+2025-07-08 01:24:30,510 [INFO] Generated model: Pet
+2025-07-08 01:24:30,511 [INFO] Generated model: Tag
+2025-07-08 01:24:30,512 [INFO] Generated model: Order
+2025-07-08 01:24:30,512 [INFO] Generated model: User
+2025-07-08 01:24:30,561 [INFO] Running generate_pydantic.py
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:24:31,130 [INFO] Generated Pydantic schema: User
+2025-07-08 01:24:31,197 [INFO] Running generate_routes.py
+2025-07-08 01:24:31,776 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:24:31,776 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:24:31,776 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:24:31,776 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:24:31,777 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:24:31,777 [INFO] ✅ Generated routes for: User
+2025-07-08 01:24:31,842 [INFO] Running create_tables.py
+2025-07-08 01:24:32,709 [INFO] Running generate_tests.py
+2025-07-08 01:24:33,252 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:24:33,252 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:24:33,252 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:24:33,252 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:24:33,253 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:24:33,253 [INFO] ✅ Generated tests for: User
+2025-07-08 01:24:33,310 [INFO] Running generate_main.py
+2025-07-08 01:24:33,825 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:24:33,926 [INFO] All generation scripts completed successfully.
+2025-07-08 01:33:47,052 [INFO] Created models
+2025-07-08 01:33:47,052 [INFO] Created routes
+2025-07-08 01:33:47,052 [INFO] Created schemas
+2025-07-08 01:33:47,052 [INFO] Created tests
+2025-07-08 01:33:47,052 [INFO] Created logs
+2025-07-08 01:33:47,052 [INFO] Created templates
+2025-07-08 01:33:47,052 [INFO] Running generate_enums.py
+2025-07-08 01:33:47,584 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:33:47,584 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:33:47,584 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:33:47,632 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:33:48,165 [INFO] Generated model: ApiResponse
+2025-07-08 01:33:48,165 [INFO] Generated model: Category
+2025-07-08 01:33:48,165 [INFO] Generated model: Pet
+2025-07-08 01:33:48,165 [INFO] Generated model: Tag
+2025-07-08 01:33:48,165 [INFO] Generated model: Order
+2025-07-08 01:33:48,165 [INFO] Generated model: User
+2025-07-08 01:33:48,222 [INFO] Running generate_pydantic.py
+2025-07-08 01:33:48,730 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:33:48,746 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:33:48,746 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:33:48,746 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:33:48,746 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:33:48,746 [INFO] Generated Pydantic schema: User
+2025-07-08 01:33:48,794 [INFO] Running generate_routes.py
+2025-07-08 01:33:49,338 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:33:49,338 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:33:49,338 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:33:49,338 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:33:49,338 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:33:49,338 [INFO] ✅ Generated routes for: User
+2025-07-08 01:33:49,373 [INFO] Running create_tables.py
+2025-07-08 01:33:50,112 [INFO] Running generate_tests.py
+2025-07-08 01:33:50,638 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:33:50,638 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:33:50,638 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:33:50,638 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:33:50,638 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:33:50,640 [INFO] ✅ Generated tests for: User
+2025-07-08 01:33:50,673 [INFO] Running generate_main.py
+2025-07-08 01:33:51,237 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:33:51,285 [INFO] All generation scripts completed successfully.
+2025-07-08 01:34:22,617 [INFO] Created models
+2025-07-08 01:34:22,617 [INFO] Created routes
+2025-07-08 01:34:22,617 [INFO] Created schemas
+2025-07-08 01:34:22,617 [INFO] Created tests
+2025-07-08 01:34:22,617 [INFO] Created logs
+2025-07-08 01:34:22,617 [INFO] Created templates
+2025-07-08 01:34:22,617 [INFO] Running generate_enums.py
+2025-07-08 01:34:23,223 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:34:23,223 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:34:23,232 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:34:23,274 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:34:24,095 [INFO] Generated model: ApiResponse
+2025-07-08 01:34:24,095 [INFO] Generated model: Category
+2025-07-08 01:34:24,095 [INFO] Generated model: Pet
+2025-07-08 01:34:24,103 [INFO] Generated model: Tag
+2025-07-08 01:34:24,103 [INFO] Generated model: Order
+2025-07-08 01:34:24,105 [INFO] Generated model: User
+2025-07-08 01:34:24,198 [INFO] Running generate_pydantic.py
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:34:24,811 [INFO] Generated Pydantic schema: User
+2025-07-08 01:34:24,877 [INFO] Running generate_routes.py
+2025-07-08 01:34:25,455 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:34:25,455 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:34:25,455 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:34:25,455 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:34:25,455 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:34:25,455 [INFO] ✅ Generated routes for: User
+2025-07-08 01:34:25,503 [INFO] Running create_tables.py
+2025-07-08 01:34:26,482 [INFO] Running generate_tests.py
+2025-07-08 01:34:27,007 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:34:27,007 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:34:27,007 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:34:27,007 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:34:27,007 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:34:27,007 [INFO] ✅ Generated tests for: User
+2025-07-08 01:34:27,054 [INFO] Running generate_main.py
+2025-07-08 01:34:27,673 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:34:27,816 [INFO] All generation scripts completed successfully.
+2025-07-08 01:34:50,375 [INFO] Created models
+2025-07-08 01:34:50,375 [INFO] Created routes
+2025-07-08 01:34:50,375 [INFO] Created schemas
+2025-07-08 01:34:50,375 [INFO] Created tests
+2025-07-08 01:34:50,375 [INFO] Created logs
+2025-07-08 01:34:50,375 [INFO] Created templates
+2025-07-08 01:34:50,375 [INFO] Running generate_enums.py
+2025-07-08 01:34:50,907 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:34:50,907 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:34:50,907 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:34:50,954 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:34:51,624 [INFO] Generated model: ApiResponse
+2025-07-08 01:34:51,624 [INFO] Generated model: Category
+2025-07-08 01:34:51,624 [INFO] Generated model: Pet
+2025-07-08 01:34:51,624 [INFO] Generated model: Tag
+2025-07-08 01:34:51,624 [INFO] Generated model: Order
+2025-07-08 01:34:51,624 [INFO] Generated model: User
+2025-07-08 01:34:51,691 [INFO] Running generate_pydantic.py
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:34:52,276 [INFO] Generated Pydantic schema: User
+2025-07-08 01:34:52,337 [INFO] Running generate_routes.py
+2025-07-08 01:34:52,876 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:34:52,876 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:34:52,876 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:34:52,876 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:34:52,876 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:34:52,876 [INFO] ✅ Generated routes for: User
+2025-07-08 01:34:52,929 [INFO] Running create_tables.py
+2025-07-08 01:34:53,684 [INFO] Running generate_tests.py
+2025-07-08 01:34:54,221 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:34:54,221 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:34:54,222 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:34:54,222 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:34:54,222 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:34:54,223 [INFO] ✅ Generated tests for: User
+2025-07-08 01:34:54,271 [INFO] Running generate_main.py
+2025-07-08 01:34:54,810 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:34:54,857 [INFO] All generation scripts completed successfully.
+2025-07-08 01:35:21,297 [INFO] ✅ Created directory: models
+2025-07-08 01:35:21,297 [INFO] ✅ Created directory: routes
+2025-07-08 01:35:21,297 [INFO] ✅ Created directory: schemas
+2025-07-08 01:35:21,297 [INFO] ✅ Created directory: tests
+2025-07-08 01:35:21,297 [INFO] ✅ Created directory: logs
+2025-07-08 01:35:21,298 [INFO] ✅ Created directory: templates
+2025-07-08 01:35:21,298 [INFO] 🚀 Running generate_enums.py...
+2025-07-08 01:35:22,179 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:35:22,179 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:35:22,185 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:35:22,274 [INFO] ✅ generate_enums.py completed successfully.
+2025-07-08 01:35:22,274 [INFO] 🚀 Running generate_sqlalchemy.py...
+2025-07-08 01:35:22,843 [INFO] Generated model: ApiResponse
+2025-07-08 01:35:22,843 [INFO] Generated model: Category
+2025-07-08 01:35:22,844 [INFO] Generated model: Pet
+2025-07-08 01:35:22,844 [INFO] Generated model: Tag
+2025-07-08 01:35:22,845 [INFO] Generated model: Order
+2025-07-08 01:35:22,845 [INFO] Generated model: User
+2025-07-08 01:35:22,890 [INFO] ✅ generate_sqlalchemy.py completed successfully.
+2025-07-08 01:35:22,890 [INFO] 🚀 Running generate_pydantic.py...
+2025-07-08 01:35:23,454 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:35:23,454 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:35:23,455 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:35:23,455 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:35:23,456 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:35:23,456 [INFO] Generated Pydantic schema: User
+2025-07-08 01:35:23,521 [INFO] ✅ generate_pydantic.py completed successfully.
+2025-07-08 01:35:23,521 [INFO] 🚀 Running generate_routes.py...
+2025-07-08 01:35:24,085 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:35:24,087 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:35:24,087 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:35:24,087 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:35:24,089 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:35:24,089 [INFO] ✅ Generated routes for: User
+2025-07-08 01:35:24,186 [INFO] ✅ generate_routes.py completed successfully.
+2025-07-08 01:35:24,186 [INFO] 🚀 Running create_tables.py...
+2025-07-08 01:35:24,847 [ERROR] ❌ create_tables.py failed with exit code 1
+2025-07-08 01:35:24,847 [ERROR] STDOUT:
+
+2025-07-08 01:35:24,847 [ERROR] STDERR:
+Traceback (most recent call last):
+  File "D:\OpenAPI\create_tables.py", line 18, in <module>
+    print("\U0001f680 Auto-importing all models...")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 0: character maps to <undefined>
+
+2025-07-08 01:36:12,678 [INFO] Created models
+2025-07-08 01:36:12,679 [INFO] Created routes
+2025-07-08 01:36:12,679 [INFO] Created schemas
+2025-07-08 01:36:12,679 [INFO] Created tests
+2025-07-08 01:36:12,679 [INFO] Created logs
+2025-07-08 01:36:12,679 [INFO] Created templates
+2025-07-08 01:36:12,679 [INFO] Running generate_enums.py
+2025-07-08 01:36:13,211 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:36:13,211 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:36:13,211 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:36:13,279 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:36:13,809 [INFO] Generated model: ApiResponse
+2025-07-08 01:36:13,809 [INFO] Generated model: Category
+2025-07-08 01:36:13,809 [INFO] Generated model: Pet
+2025-07-08 01:36:13,809 [INFO] Generated model: Tag
+2025-07-08 01:36:13,809 [INFO] Generated model: Order
+2025-07-08 01:36:13,809 [INFO] Generated model: User
+2025-07-08 01:36:13,877 [INFO] Running generate_pydantic.py
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:36:14,490 [INFO] Generated Pydantic schema: User
+2025-07-08 01:36:14,537 [INFO] Running generate_routes.py
+2025-07-08 01:36:15,064 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:36:15,064 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:36:15,064 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:36:15,064 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:36:15,064 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:36:15,064 [INFO] ✅ Generated routes for: User
+2025-07-08 01:36:15,128 [INFO] Running create_tables.py
+2025-07-08 01:36:15,909 [INFO] Running generate_tests.py
+2025-07-08 01:36:16,421 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:36:16,421 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:36:16,421 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:36:16,421 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:36:16,421 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:36:16,421 [INFO] ✅ Generated tests for: User
+2025-07-08 01:36:16,469 [INFO] Running generate_main.py
+2025-07-08 01:36:16,987 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:36:17,035 [INFO] All generation scripts completed successfully.
+2025-07-08 01:41:11,080 [INFO] Created models
+2025-07-08 01:41:11,080 [INFO] Created routes
+2025-07-08 01:41:11,080 [INFO] Created schemas
+2025-07-08 01:41:11,082 [INFO] Created tests
+2025-07-08 01:41:11,082 [INFO] Created logs
+2025-07-08 01:41:11,082 [INFO] Created templates
+2025-07-08 01:41:11,082 [INFO] Running generate_enums.py
+2025-07-08 01:41:11,601 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:41:11,601 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:41:11,617 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:41:11,667 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:41:12,184 [INFO] Generated model: ApiResponse
+2025-07-08 01:41:12,184 [INFO] Generated model: Category
+2025-07-08 01:41:12,184 [INFO] Generated model: Pet
+2025-07-08 01:41:12,184 [INFO] Generated model: Tag
+2025-07-08 01:41:12,184 [INFO] Generated model: Order
+2025-07-08 01:41:12,184 [INFO] Generated model: User
+2025-07-08 01:41:12,232 [INFO] Running generate_pydantic.py
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:41:12,764 [INFO] Generated Pydantic schema: User
+2025-07-08 01:41:12,811 [INFO] Running generate_routes.py
+2025-07-08 01:41:13,329 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:41:13,329 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:41:13,345 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:41:13,345 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:41:13,345 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:41:13,345 [INFO] ✅ Generated routes for: User
+2025-07-08 01:41:13,392 [INFO] Running create_tables.py
+2025-07-08 01:41:14,120 [INFO] Running generate_tests.py
+2025-07-08 01:41:14,627 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:41:14,627 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:41:14,627 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:41:14,627 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:41:14,627 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:41:14,627 [INFO] ✅ Generated tests for: User
+2025-07-08 01:41:14,681 [INFO] Running generate_main.py
+2025-07-08 01:41:15,235 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:41:15,290 [INFO] All generation scripts completed successfully.
+2025-07-08 01:41:26,726 [INFO] Created models
+2025-07-08 01:41:26,726 [INFO] Created routes
+2025-07-08 01:41:26,726 [INFO] Created schemas
+2025-07-08 01:41:26,726 [INFO] Created tests
+2025-07-08 01:41:26,726 [INFO] Created logs
+2025-07-08 01:41:26,726 [INFO] Created templates
+2025-07-08 01:41:26,726 [INFO] Running generate_enums.py
+2025-07-08 01:41:27,233 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:41:27,233 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:41:27,244 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:41:27,292 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:41:27,825 [INFO] Generated model: ApiResponse
+2025-07-08 01:41:27,825 [INFO] Generated model: Category
+2025-07-08 01:41:27,825 [INFO] Generated model: Pet
+2025-07-08 01:41:27,825 [INFO] Generated model: Tag
+2025-07-08 01:41:27,827 [INFO] Generated model: Order
+2025-07-08 01:41:27,827 [INFO] Generated model: User
+2025-07-08 01:41:27,871 [INFO] Running generate_pydantic.py
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:41:28,434 [INFO] Generated Pydantic schema: User
+2025-07-08 01:41:28,478 [INFO] Running generate_routes.py
+2025-07-08 01:41:29,015 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:41:29,015 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:41:29,015 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:41:29,015 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:41:29,015 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:41:29,015 [INFO] ✅ Generated routes for: User
+2025-07-08 01:41:29,074 [INFO] Running create_tables.py
+2025-07-08 01:41:29,806 [INFO] Running generate_tests.py
+2025-07-08 01:41:30,317 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:41:30,317 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:41:30,317 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:41:30,317 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:41:30,317 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:41:30,317 [INFO] ✅ Generated tests for: User
+2025-07-08 01:41:30,364 [INFO] Running generate_main.py
+2025-07-08 01:41:30,896 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:41:30,936 [INFO] All generation scripts completed successfully.
+2025-07-08 01:42:30,107 [INFO] Created models
+2025-07-08 01:42:30,108 [INFO] Created routes
+2025-07-08 01:42:30,108 [INFO] Created schemas
+2025-07-08 01:42:30,108 [INFO] Created tests
+2025-07-08 01:42:30,108 [INFO] Created logs
+2025-07-08 01:42:30,108 [INFO] Created templates
+2025-07-08 01:42:30,108 [INFO] Running generate_enums.py
+2025-07-08 01:42:30,623 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:42:30,623 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:42:30,628 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:42:30,663 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:42:31,201 [INFO] Generated model: ApiResponse
+2025-07-08 01:42:31,201 [INFO] Generated model: Category
+2025-07-08 01:42:31,201 [INFO] Generated model: Pet
+2025-07-08 01:42:31,201 [INFO] Generated model: Tag
+2025-07-08 01:42:31,201 [INFO] Generated model: Order
+2025-07-08 01:42:31,201 [INFO] Generated model: User
+2025-07-08 01:42:31,265 [INFO] Running generate_pydantic.py
+2025-07-08 01:42:31,990 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:42:31,990 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:42:31,990 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:42:31,990 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:42:31,990 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:42:31,997 [INFO] Generated Pydantic schema: User
+2025-07-08 01:42:32,123 [INFO] Running generate_routes.py
+2025-07-08 01:42:32,733 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:42:32,733 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:42:32,733 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:42:32,733 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:42:32,733 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:42:32,733 [INFO] ✅ Generated routes for: User
+2025-07-08 01:42:32,797 [INFO] Running create_tables.py
+2025-07-08 01:42:33,518 [INFO] Running generate_tests.py
+2025-07-08 01:42:34,022 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:42:34,022 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:42:34,022 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:42:34,038 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:42:34,038 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:42:34,040 [INFO] ✅ Generated tests for: User
+2025-07-08 01:42:34,089 [INFO] Running generate_main.py
+2025-07-08 01:42:34,680 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:42:34,829 [INFO] All generation scripts completed successfully.
+2025-07-08 01:44:53,464 [INFO] Created models
+2025-07-08 01:44:53,464 [INFO] Created routes
+2025-07-08 01:44:53,464 [INFO] Created schemas
+2025-07-08 01:44:53,464 [INFO] Created tests
+2025-07-08 01:44:53,464 [INFO] Created logs
+2025-07-08 01:44:53,464 [INFO] Created templates
+2025-07-08 01:44:53,464 [INFO] Running generate_enums.py
+2025-07-08 01:44:53,997 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-08 01:44:53,997 [INFO] ✅ Extracted 6 models.
+2025-07-08 01:44:53,997 [INFO] ✅ Generated enums.py with 1 enums.
+2025-07-08 01:44:54,044 [INFO] Running generate_sqlalchemy.py
+2025-07-08 01:44:54,589 [INFO] Generated model: ApiResponse
+2025-07-08 01:44:54,589 [INFO] Generated model: Category
+2025-07-08 01:44:54,589 [INFO] Generated model: Pet
+2025-07-08 01:44:54,589 [INFO] Generated model: Tag
+2025-07-08 01:44:54,591 [INFO] Generated model: Order
+2025-07-08 01:44:54,592 [INFO] Generated model: User
+2025-07-08 01:44:54,633 [INFO] Running generate_pydantic.py
+2025-07-08 01:44:55,174 [INFO] Generated Pydantic schema: ApiResponse
+2025-07-08 01:44:55,174 [INFO] Generated Pydantic schema: Category
+2025-07-08 01:44:55,176 [INFO] Generated Pydantic schema: Pet
+2025-07-08 01:44:55,176 [INFO] Generated Pydantic schema: Tag
+2025-07-08 01:44:55,176 [INFO] Generated Pydantic schema: Order
+2025-07-08 01:44:55,176 [INFO] Generated Pydantic schema: User
+2025-07-08 01:44:55,229 [INFO] Running generate_routes.py
+2025-07-08 01:44:55,771 [INFO] ✅ Generated routes for: ApiResponse
+2025-07-08 01:44:55,771 [INFO] Skipping route generation for Category (no CRUD paths).
+2025-07-08 01:44:55,771 [INFO] ✅ Generated routes for: Pet
+2025-07-08 01:44:55,771 [INFO] Skipping route generation for Tag (no CRUD paths).
+2025-07-08 01:44:55,771 [INFO] ✅ Generated routes for: Order
+2025-07-08 01:44:55,774 [INFO] ✅ Generated routes for: User
+2025-07-08 01:44:55,828 [INFO] Running create_tables.py
+2025-07-08 01:44:56,707 [INFO] Running generate_tests.py
+2025-07-08 01:44:57,217 [INFO] ✅ Generated tests for: ApiResponse
+2025-07-08 01:44:57,217 [INFO] Skipping test generation for Category (no CRUD paths).
+2025-07-08 01:44:57,217 [INFO] ✅ Generated tests for: Pet
+2025-07-08 01:44:57,217 [INFO] Skipping test generation for Tag (no CRUD paths).
+2025-07-08 01:44:57,217 [INFO] ✅ Generated tests for: Order
+2025-07-08 01:44:57,217 [INFO] ✅ Generated tests for: User
+2025-07-08 01:44:57,268 [INFO] Running generate_main.py
+2025-07-08 01:44:57,802 [INFO] ✅ Generated main.py with correct imports based on available routes.
+2025-07-08 01:44:57,865 [INFO] All generation scripts completed successfully.

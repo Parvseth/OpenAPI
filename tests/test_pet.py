@@ -3,26 +3,25 @@ from main import app
 
 client = TestClient(app)
 
-def test_create_pet():
+def test_create_():
     payload = {
-        
-        "id": 123,
-        
-        "category": [],
-        
-        "name": "example_value",
-        
-        "photoUrls": [],
-        
-        "tags": [],
-        
-        "status": [],
-        
+        "id":
+                    123,
+        "category":
+                    1,
+        "name":
+                    "doggie",
+        "photoUrls":
+                    "[]",
+        "tags":
+                    "[]",
+        "status":
+                    example_status,
     }
-    response = client.post("/pets", json=payload)  # ✅ Pluralized path
-    assert response.status_code == 200
+    response = client.post("/", json=payload)
+    assert response.status_code == 200 or response.status_code == 201
 
-def test_get_all_pets():
-    response = client.get("/pets")  # ✅ Pluralized path
+def test_get_all_():
+    response = client.get("/")
     assert response.status_code == 200
     assert isinstance(response.json(), list)

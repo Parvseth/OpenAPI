@@ -3,26 +3,25 @@ from main import app
 
 client = TestClient(app)
 
-def test_create_order():
+def test_create_():
     payload = {
-        
-        "id": 123,
-        
-        "petId": 123,
-        
-        "quantity": 123,
-        
-        "shipDate": "example_value",
-        
-        "status": [],
-        
-        "complete": True,
-        
+        "id":
+                    123,
+        "petId":
+                    123,
+        "quantity":
+                    123,
+        "shipDate":
+                    "example_shipDate",
+        "status":
+                    example_status,
+        "complete":
+                    True,
     }
-    response = client.post("/orders", json=payload)  # ✅ Pluralized path
-    assert response.status_code == 200
+    response = client.post("/", json=payload)
+    assert response.status_code == 200 or response.status_code == 201
 
-def test_get_all_orders():
-    response = client.get("/orders")  # ✅ Pluralized path
+def test_get_all_():
+    response = client.get("/")
     assert response.status_code == 200
     assert isinstance(response.json(), list)

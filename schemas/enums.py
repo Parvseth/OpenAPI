@@ -9,4 +9,3 @@ class StatusEnum(enum.Enum):
     
     SOLD = "sold"
     
-

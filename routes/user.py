@@ -17,7 +17,7 @@ router = APIRouter()
 
 @router.post("/", response_model=UserSchema)
 async def create_user(item: UserSchema, db: Session = Depends(get_db)):
-    db_item = User(**item.dict())
+    db_item = User(**item.model_dump())
     db.add(db_item)
     db.commit()
     db.refresh(db_item)
@@ -45,10 +45,19 @@ async def update_user(id: int, updated: UserSchema, db: Session = Depends(get_db
     db_item = db.query(User).filter(User.id == id).first()
     if db_item is None:
         raise HTTPException(status_code=404, detail="User not found")
-    for key, value in updated.dict(exclude_unset=True).items():
+    for key, value in updated.model_dump(exclude_unset=True).items():
         setattr(db_item, key, value)
     db.commit()
     db.refresh(db_item)
     return db_item
 
 
+
+@router.delete("/{id}")
+async def delete_user(id: int, db: Session = Depends(get_db)):
+    db_item = db.query(User).filter(User.id == id).first()
+    if db_item is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    db.delete(db_item)
+    db.commit()
+    return {"detail": "User deleted successfully"}

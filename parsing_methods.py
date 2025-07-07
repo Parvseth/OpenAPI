@@ -1,24 +1,23 @@
-from collections import defaultdict
-from schemas_to_model import extract_routes  # Make sure this returns List[Route]
-import yaml
+def extract_enums(schemas):
+    enums = []
+    for name, schema in schemas.items():
+        if "enum" in schema:
+            enums.append({"name": name, "values": schema["enum"]})
+    return enums
 
-with open("openapi3.yaml", "r") as f:
-    spec = yaml.safe_load(f)
-# After you've loaded your OpenAPI spec
-routes = extract_routes(spec["paths"])
-
-# This will hold model → set of methods
-model_method_map = defaultdict(set)
-
-for route in routes:
-    if route.request_schema:
-        model_method_map[route.request_schema].add(route.method)
-    elif route.response_schema:
-        model_method_map[route.response_schema].add(route.method)
-
-# Convert sets to lists
-model_methods = {model: list(methods) for model, methods in model_method_map.items()}
-
-# Optional: Print result
-from pprint import pprint
-pprint(model_methods)
+def extract_models(schemas):
+    models = []
+    for name, schema in schemas.items():
+        if schema.get("type") == "object":
+            properties = schema.get("properties", {})
+            required = schema.get("required", [])
+            fields = []
+            for pname, pdetails in properties.items():
+                ptype = pdetails.get("type", "string")
+                fields.append({
+                    "name": pname,
+                    "type": ptype,
+                    "required": pname in required
+                })
+            models.append({"name": name, "fields": fields})
+    return models

@@ -3,30 +3,29 @@ from main import app
 
 client = TestClient(app)
 
-def test_create_user():
+def test_create_():
     payload = {
-        
-        "id": 123,
-        
-        "username": "example_value",
-        
-        "firstName": "example_value",
-        
-        "lastName": "example_value",
-        
-        "email": "example_value",
-        
-        "password": "example_value",
-        
-        "phone": "example_value",
-        
-        "userStatus": 123,
-        
+        "id":
+                    123,
+        "username":
+                    "example_username",
+        "firstName":
+                    "example_firstName",
+        "lastName":
+                    "example_lastName",
+        "email":
+                    "example_email",
+        "password":
+                    "example_password",
+        "phone":
+                    "example_phone",
+        "userStatus":
+                    123,
     }
-    response = client.post("/users", json=payload)  # ✅ Pluralized path
-    assert response.status_code == 200
+    response = client.post("/", json=payload)
+    assert response.status_code == 200 or response.status_code == 201
 
-def test_get_all_users():
-    response = client.get("/users")  # ✅ Pluralized path
+def test_get_all_():
+    response = client.get("/")
     assert response.status_code == 200
     assert isinstance(response.json(), list)

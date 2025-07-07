@@ -1,19 +1,15 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from dotenv import load_dotenv
+import os
 
-# ✅ PostgreSQL connection URL format (update these values)
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://your_username:your_password@localhost/your_dbname"
+load_dotenv()
 
-# ✅ PostgreSQL does NOT need `check_same_thread`
-engine = create_engine(SQLALCHEMY_DATABASE_URL)
-
-# Session factory
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://postgres:password@localhost/openapi_db")
+engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-# Base class for models to inherit
 Base = declarative_base()
 
-# Dependency for FastAPI routes
 def get_db():
     db = SessionLocal()
     try:

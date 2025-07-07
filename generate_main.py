@@ -1,32 +1,49 @@
 import os
-import yaml
 from jinja2 import Environment, FileSystemLoader
-from utils import to_snake_case
+from schemas_to_model import extract_models, extract_routes
+import yaml
 from logger import logger
 
-# === Load OpenAPI Spec ===
-with open("openapi3.yaml", "r") as f:
+with open("openapi3.yaml") as f:
     spec = yaml.safe_load(f)
-    
+
 schemas = spec.get("components", {}).get("schemas", {})
-model_names = list(schemas.keys())
+paths = spec.get("paths", {})
+
+models = extract_models(schemas)
+routes = extract_routes(paths)
+
+# Determine which models have CRUD operations
+models_with_crud = []
+model_plural_map = {}
+
+for model in models:
+    plural_name = model.name.lower() + "s"
+    model_plural_map[model.name] = plural_name
+
+models_with_crud_set = set()
+for route in routes:
+    if route.request_schema:
+        models_with_crud_set.add(route.request_schema)
+    elif route.response_schema:
+        models_with_crud_set.add(route.response_schema)
+
+# Filter models to include only those with CRUD paths
+models_with_crud = [model for model in models if model.name in models_with_crud_set]
 
 env = Environment(loader=FileSystemLoader("templates"))
 template = env.get_template("main_template.j2")
 
-# === Prepare context for main.py ===
-models = [
+output = template.render(models=[
     {
-        "name": name,
-        "snake": to_snake_case(name),
-        "plural": to_snake_case(name) + "s",
+        "name": model.name,
+        "snake": model.name.lower(),
+        "plural": model_plural_map[model.name]
     }
-    for name in model_names
-]
-
-output = template.render(models=models)
+    for model in models_with_crud
+])
 
 with open("main.py", "w", encoding="utf-8") as f:
     f.write(output)
 
-logger.info("✅ main.py generated successfully.")
+logger.info("✅ Generated main.py with correct imports based on available routes.")

@@ -1,19 +1,25 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 
-{# === Imports === #}
 {% for model in models %}
 from routes.{{ model.snake }} import router as {{ model.snake }}_router
 import models.{{ model.snake }}
 {% endfor %}
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("🚀 FastAPI app is starting up...")
+    yield
+    print("🛑 FastAPI app is shutting down...")
+
 app = FastAPI(
     title="Generated FastAPI App",
     description="This app was generated automatically from an OpenAPI spec.",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
-# ✅ CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -22,18 +28,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ✅ Include routers
 {% for model in models %}
 app.include_router({{ model.snake }}_router, prefix="/{{ model.plural }}", tags=["{{ model.name }}"])
 {% endfor %}
-
-@app.on_event("startup")
-async def startup_event():
-    print("🚀 FastAPI app is starting up...")
-
-@app.on_event("shutdown")
-async def shutdown_event():
-    print("🛑 FastAPI app is shutting down...")
 
 @app.get("/")
 def read_root():
