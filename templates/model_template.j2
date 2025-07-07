@@ -1,0 +1,13 @@
+# Auto-generated from OpenAPI spec
+from type_mapper import map_openapi_to_python, map_openapi_to_sqlalchemy
+from schemas_to_model import get_final_data_model
+from sqlalchemy import Column, {{ imports }}
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+
+class {{ model.name }}(Base):
+    __tablename__ = "{{ model.name.lower() }}"
+{% for field in model.fields %}
+    {{ field.name }} = Column({{ field.sqla_type }})
+{% endfor %}

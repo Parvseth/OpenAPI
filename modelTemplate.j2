@@ -1,0 +1,11 @@
+from sqlalchemy import Column, {{ imports }}
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+
+class {{ model.name }}(Base):
+    __tablename__ = "{{ model.name.lower() }}"
+{% for field in model.fields %}
+    {{ field.name }} = Column({{ field.type }}{% if not field.required %}, nullable=True{% endif %})
+{% endfor %}
+

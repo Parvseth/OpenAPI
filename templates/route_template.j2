@@ -1,0 +1,64 @@
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
+from models.{{ model.name.lower() }} import {{ model.name }}
+from schemas.{{ model.name.lower() }} import {{ model.name }}Schema
+from db import get_db
+from typing import List, Optional
+
+router = APIRouter()
+
+# CRUD for {{ model.name }}
+{% set pk_field = model.fields | selectattr('is_primary') | list | first %}
+{% if pk_field %}
+{% set pk_name = pk_field.name %}
+{% set pk_type = pk_field.pydantic_type or 'int' %}
+{% endif %}
+
+{% if 'POST' in methods %}
+@router.post("/", response_model={{ model.name }}Schema)
+async def create_{{ model.name.lower() }}(item: {{ model.name }}Schema, db: Session = Depends(get_db)):
+    db_item = {{ model.name }}(**item.dict())
+    db.add(db_item)
+    db.commit()
+    db.refresh(db_item)
+    return db_item
+{% endif %}
+
+{% if 'GET' in methods %}
+@router.get("/", response_model=List[{{ model.name }}Schema])
+async def read_{{ model.name.lower() }}s(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
+    return db.query({{ model.name }}).offset(skip).limit(limit).all()
+
+{% if pk_field %}
+@router.get("/{{ '{' + pk_name + '}' }}", response_model={{ model.name }}Schema)
+async def read_{{ model.name.lower() }}({{ pk_name }}: {{ pk_type }}, db: Session = Depends(get_db)):
+    item = db.query({{ model.name }}).filter({{ model.name }}.{{ pk_name }} == {{ pk_name }}).first()
+    if item is None:
+        raise HTTPException(status_code=404, detail="{{ model.name }} not found")
+    return item
+{% endif %}
+{% endif %}
+
+{% if 'PUT' in methods and pk_field %}
+@router.put("/{{ '{' + pk_name + '}' }}", response_model={{ model.name }}Schema)
+async def update_{{ model.name.lower() }}({{ pk_name }}: {{ pk_type }}, updated: {{ model.name }}Schema, db: Session = Depends(get_db)):
+    db_item = db.query({{ model.name }}).filter({{ model.name }}.{{ pk_name }} == {{ pk_name }}).first()
+    if db_item is None:
+        raise HTTPException(status_code=404, detail="{{ model.name }} not found")
+    for key, value in updated.dict(exclude_unset=True).items():
+        setattr(db_item, key, value)
+    db.commit()
+    db.refresh(db_item)
+    return db_item
+{% endif %}
+
+{% if 'DELETE' in methods and pk_field %}
+@router.delete("/{{ '{' + pk_name + '}' }}")
+async def delete_{{ model.name.lower() }}({{ pk_name }}: {{ pk_type }}, db: Session = Depends(get_db)):
+    db_item = db.query({{ model.name }}).filter({{ model.name }}.{{ pk_name }} == {{ pk_name }}).first()
+    if db_item is None:
+        raise HTTPException(status_code=404, detail="{{ model.name }} not found")
+    db.delete(db_item)
+    db.commit()
+    return {"detail": "{{ model.name }} deleted successfully"}
+{% endif %}

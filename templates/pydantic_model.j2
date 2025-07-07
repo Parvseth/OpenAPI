@@ -1,0 +1,26 @@
+from pydantic import BaseModel
+from typing import Optional, List
+from schemas.enums import *
+
+{# --- Collect referenced models from $ref fields --- #}
+{% set ref_models = model.fields | selectattr("ref") | map(attribute="ref") | unique | list %}
+{% for ref_model in ref_models %}
+from schemas.{{ ref_model.lower() }} import {{ ref_model }}Schema
+{% endfor %}
+
+
+class {{ model.name }}Schema(BaseModel):
+{% for field in model.fields %}
+    {{ field.name }}: {% if not field.required %}Optional[{% endif %}
+        {%- if field.ref -%}
+            {{ field.ref }}Schema
+        {%- elif field.enum_values -%}
+            {{ field.enum_class_name }}
+        {%- else -%}
+            {{ field.pydantic_type }}
+        {%- endif -%}
+    {% if not field.required %}]{% endif %}
+{% endfor %}
+
+    class Config:
+        from_attributes = True

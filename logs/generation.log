@@ -1,0 +1,428 @@
+2025-07-06 16:35:27,623 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:35:27,623 [INFO] ✅ Extracted models from schemas.
+2025-07-06 16:35:27,636 [INFO] ✅ Generated enums → schemas/enums.py
+2025-07-06 16:35:47,406 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:35:47,406 [INFO] ✅ Extracted 6 models.
+2025-07-06 16:35:47,420 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-06 16:35:47,420 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-06 16:35:47,420 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-06 16:35:47,420 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-06 16:35:47,420 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-06 16:35:47,422 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-06 16:35:55,011 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:35:55,011 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:35:55,026 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 16:35:55,026 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 16:35:55,026 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 16:35:55,029 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 16:35:55,029 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 16:35:55,029 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 16:36:02,636 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:36:02,636 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-06 16:36:02,659 [INFO] ✅ Generated route: routes/apiresponse.py
+2025-07-06 16:36:02,659 [INFO] ℹ️ Skipped Category: no associated routes.
+2025-07-06 16:36:02,659 [INFO] ✅ Generated route: routes/pet.py
+2025-07-06 16:36:02,659 [INFO] ℹ️ Skipped Tag: no associated routes.
+2025-07-06 16:36:02,659 [INFO] ✅ Generated route: routes/order.py
+2025-07-06 16:36:02,662 [INFO] ✅ Generated route: routes/user.py
+2025-07-06 16:37:41,832 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 16:37:41,833 [INFO] 📌 Extracted routers: ['apiresponse', 'order', 'pet', 'user']
+2025-07-06 16:37:41,837 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-06 16:37:55,119 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 16:37:55,119 [INFO] 📌 Extracted routers: ['apiresponse', 'order', 'pet', 'user']
+2025-07-06 16:37:55,124 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-06 16:43:51,802 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:43:51,803 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:43:51,824 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 16:43:51,824 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 16:43:51,824 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 16:43:51,824 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 16:43:51,825 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 16:43:51,825 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 16:43:55,265 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:43:55,266 [INFO] ✅ Extracted models from schemas.
+2025-07-06 16:43:55,271 [INFO] ✅ Generated enums → schemas/enums.py
+2025-07-06 16:44:42,683 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:44:42,683 [INFO] ✅ Extracted models from schemas.
+2025-07-06 16:44:42,688 [INFO] ✅ Generated enums → schemas/enums.py
+2025-07-06 16:44:45,663 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:44:45,663 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 16:44:45,670 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 16:46:50,886 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:46:50,886 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:49:01,900 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:49:01,901 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:49:01,908 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 16:49:01,909 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 16:49:01,909 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 16:49:01,909 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 16:49:01,909 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 16:49:01,909 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 16:50:09,277 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:50:09,277 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:50:09,288 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 16:50:09,288 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 16:50:09,288 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 16:50:09,288 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 16:50:09,290 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 16:50:09,291 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 16:51:18,206 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:51:18,206 [INFO] ✅ Extracted models from schemas.
+2025-07-06 16:51:18,211 [INFO] ✅ Generated enums → schemas/enums.py
+2025-07-06 16:51:20,256 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:51:20,256 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:51:20,263 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 16:51:20,265 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 16:51:20,267 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 16:51:20,267 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 16:51:20,269 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 16:51:20,270 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 16:51:25,636 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:51:25,636 [INFO] ✅ Extracted 6 models.
+2025-07-06 16:51:25,640 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-06 16:51:25,641 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-06 16:51:25,641 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-06 16:51:25,642 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-06 16:51:25,642 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-06 16:51:25,642 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-06 16:51:32,009 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:51:32,009 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-06 16:51:32,024 [INFO] ✅ Generated route: routes/apiresponse.py
+2025-07-06 16:51:32,024 [INFO] ℹ️ Skipped Category: no associated routes.
+2025-07-06 16:51:32,024 [INFO] ✅ Generated route: routes/pet.py
+2025-07-06 16:51:32,024 [INFO] ℹ️ Skipped Tag: no associated routes.
+2025-07-06 16:51:32,026 [INFO] ✅ Generated route: routes/order.py
+2025-07-06 16:51:32,026 [INFO] ✅ Generated route: routes/user.py
+2025-07-06 16:51:36,576 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 16:51:36,576 [INFO] 📌 Extracted routers: ['apiresponse', 'order', 'pet', 'user']
+2025-07-06 16:51:36,580 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-06 16:55:47,904 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:55:47,904 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:55:47,912 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 16:55:47,913 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 16:55:47,913 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 16:55:47,913 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 16:55:47,913 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 16:55:47,913 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 16:57:42,596 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 16:57:42,596 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 16:57:42,611 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 16:57:42,613 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 16:57:42,613 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 16:57:42,613 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 16:57:42,613 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 16:57:42,615 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:01:25,040 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:01:25,040 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:01:25,047 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:01:25,047 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:01:25,047 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:01:25,050 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:01:25,050 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:01:25,052 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:04:25,743 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:04:25,745 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:05:26,401 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:05:26,401 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:05:26,408 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:05:26,408 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:05:26,411 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:05:26,411 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:05:26,413 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:05:26,413 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:10:49,068 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:10:49,068 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:10:49,077 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:10:49,079 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:10:49,079 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:10:49,079 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:10:49,079 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:10:49,079 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:13:57,873 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:13:57,873 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:13:57,881 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:13:57,881 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:13:57,883 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:13:57,883 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:13:57,883 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:13:57,883 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:22:45,034 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:22:45,034 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:22:45,044 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:22:45,044 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:22:45,044 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:22:45,044 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:22:45,047 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:22:45,047 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:36:50,611 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:36:50,611 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 17:36:50,620 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 17:38:24,759 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:38:24,760 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:38:24,769 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:38:24,770 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:38:24,770 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:38:24,771 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:38:24,771 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:38:24,773 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:43:18,276 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:43:18,276 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:43:18,284 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 17:43:18,284 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 17:43:18,284 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 17:43:18,284 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 17:43:18,286 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 17:43:18,286 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 17:46:52,681 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:46:52,681 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:46:52,691 [ERROR] ❌ Failed to generate SQLAlchemy model for ApiResponse: No test named 'search'.
+2025-07-06 17:46:52,691 [ERROR] ❌ Failed to generate SQLAlchemy model for Category: No test named 'search'.
+2025-07-06 17:46:52,691 [ERROR] ❌ Failed to generate SQLAlchemy model for Pet: No test named 'search'.
+2025-07-06 17:46:52,692 [ERROR] ❌ Failed to generate SQLAlchemy model for Tag: No test named 'search'.
+2025-07-06 17:46:52,692 [ERROR] ❌ Failed to generate SQLAlchemy model for Order: No test named 'search'.
+2025-07-06 17:46:52,692 [ERROR] ❌ Failed to generate SQLAlchemy model for User: No test named 'search'.
+2025-07-06 17:49:27,714 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:49:27,714 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:49:27,714 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:51:27,783 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:51:27,783 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 17:51:27,800 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 17:52:59,716 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:52:59,716 [INFO] ✅ Extracted 6 models.
+2025-07-06 17:54:00,867 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:54:00,867 [INFO] ✅ Extracted 6 models.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for ApiResponse: No test named 'search'.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for Category: No test named 'search'.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for Pet: No test named 'search'.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for Tag: No test named 'search'.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for Order: No test named 'search'.
+2025-07-06 17:54:00,883 [ERROR] ❌ Failed to generate schema for User: No test named 'search'.
+2025-07-06 17:56:17,275 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:56:17,276 [INFO] ✅ Extracted 6 models.
+2025-07-06 17:56:17,284 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-06 17:56:17,284 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-06 17:56:17,285 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-06 17:56:17,286 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-06 17:56:17,286 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-06 17:56:17,286 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-06 17:59:07,809 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 17:59:07,809 [INFO] ✅ Extracted 6 models.
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-06 17:59:07,812 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-06 18:01:32,812 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 18:01:32,812 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 18:01:32,812 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 18:01:39,945 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 18:01:39,945 [INFO] ✅ Extracted 6 models.
+2025-07-06 18:01:39,961 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-06 18:01:39,962 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-06 18:01:39,962 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-06 18:01:39,962 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-06 18:01:39,962 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-06 18:01:39,962 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-06 18:58:11,741 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 18:58:11,755 [INFO] ✅ Extracted 6 models from spec.
+2025-07-06 18:58:11,772 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-06 18:58:11,780 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-06 18:58:11,782 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-06 18:58:11,783 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-06 18:58:11,784 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-06 18:58:11,787 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-06 19:08:35,053 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-06 19:08:35,053 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-06 19:08:35,072 [INFO] ✅ Generated route: routes/apiresponse.py
+2025-07-06 19:08:35,072 [INFO] ℹ️ Skipped Category: no associated routes.
+2025-07-06 19:08:35,088 [INFO] ✅ Generated route: routes/pet.py
+2025-07-06 19:08:35,088 [INFO] ℹ️ Skipped Tag: no associated routes.
+2025-07-06 19:08:35,090 [INFO] ✅ Generated route: routes/order.py
+2025-07-06 19:08:35,092 [INFO] ✅ Generated route: routes/user.py
+2025-07-06 19:31:58,220 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 19:31:58,220 [INFO] ✅ Extracted 6 models.
+2025-07-06 19:31:58,230 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-06 19:31:58,238 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-06 19:31:58,238 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-06 19:31:58,238 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-06 19:31:58,244 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-06 19:31:58,245 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-06 19:53:39,382 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 19:53:39,398 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-06 20:17:11,516 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 20:17:11,532 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-06 20:26:20,784 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-06 20:26:20,787 [INFO] ✅ Generated main.py with routers: apiresponse, order, pet, user
+2025-07-07 00:21:15,041 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:21:15,041 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:21:15,049 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:21:15,052 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:21:15,052 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:21:15,052 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:21:15,055 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:21:15,055 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 00:30:29,103 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:30:29,103 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:30:29,109 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:30:29,110 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:30:29,111 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:30:29,112 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:30:29,112 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:30:29,113 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 00:30:32,167 [INFO] ✅ main.py generated successfully.
+2025-07-07 00:36:35,013 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:36:35,013 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:36:35,021 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:36:35,021 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:36:35,022 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:36:35,023 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:36:35,024 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:36:35,025 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 00:36:47,019 [INFO] ✅ main.py generated successfully.
+2025-07-07 00:36:49,963 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:36:49,966 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:36:49,972 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:36:49,974 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:36:49,974 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:36:49,976 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:36:49,976 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:36:49,976 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 00:36:52,226 [INFO] ✅ main.py generated successfully.
+2025-07-07 00:39:39,118 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:39:39,119 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:39:39,125 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:39:39,126 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:39:39,126 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:39:39,127 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:39:39,128 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:39:39,128 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 00:47:57,907 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 00:47:57,907 [INFO] ✅ Extracted 6 models.
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 00:47:57,914 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 01:18:40,794 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:18:40,794 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-07 01:20:54,416 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:20:54,416 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-07 01:20:54,432 [INFO] ✅ Generated route: routes/apiresponse.py
+2025-07-07 01:20:54,432 [INFO] ℹ️ Skipped Category: no associated routes.
+2025-07-07 01:20:54,432 [INFO] ✅ Generated route: routes/pet.py
+2025-07-07 01:20:54,432 [INFO] ℹ️ Skipped Tag: no associated routes.
+2025-07-07 01:20:54,432 [INFO] ✅ Generated route: routes/order.py
+2025-07-07 01:20:54,432 [INFO] ✅ Generated route: routes/user.py
+2025-07-07 01:21:58,753 [INFO] ✅ main.py generated successfully.
+2025-07-07 01:48:08,605 [INFO] 🔄 Generating dynamic main.py...
+2025-07-07 01:48:08,654 [INFO] ✅ Loaded metadata from openapi3.yaml
+2025-07-07 01:48:08,654 [INFO] 📁 Found 4 route files: ['apiresponse', 'order', 'pet', 'user']
+2025-07-07 01:48:08,654 [INFO] 📁 Found 6 model files: ['apiresponse', 'category', 'order', 'pet', 'tag', 'user']
+2025-07-07 01:51:58,595 [INFO] 🔧 Starting complete dynamic pipeline...
+2025-07-07 01:51:58,595 [INFO] 🚀 Running generate_enums.py...
+2025-07-07 01:51:59,124 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:51:59,124 [INFO] ✅ Extracted models from schemas.
+2025-07-07 01:51:59,152 [INFO] ✅ Generated enums → schemas/enums.py
+2025-07-07 01:51:59,187 [INFO] ✅ generate_enums.py completed successfully
+2025-07-07 01:51:59,187 [INFO] 🚀 Running generate_sqlalchemy.py...
+2025-07-07 01:51:59,766 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:51:59,766 [INFO] ✅ Extracted 6 models from spec.
+2025-07-07 01:51:59,784 [INFO] ✅ Generated SQLAlchemy model: ApiResponse → models\apiresponse.py
+2025-07-07 01:51:59,784 [INFO] ✅ Generated SQLAlchemy model: Category → models\category.py
+2025-07-07 01:51:59,786 [INFO] ✅ Generated SQLAlchemy model: Pet → models\pet.py
+2025-07-07 01:51:59,787 [INFO] ✅ Generated SQLAlchemy model: Tag → models\tag.py
+2025-07-07 01:51:59,788 [INFO] ✅ Generated SQLAlchemy model: Order → models\order.py
+2025-07-07 01:51:59,788 [INFO] ✅ Generated SQLAlchemy model: User → models\user.py
+2025-07-07 01:51:59,844 [INFO] ✅ generate_sqlalchemy.py completed successfully
+2025-07-07 01:51:59,844 [INFO] 🚀 Running generate_pydantic.py...
+2025-07-07 01:52:00,547 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:52:00,549 [INFO] ✅ Extracted 6 models.
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/apiresponse.py
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/category.py
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/pet.py
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/tag.py
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/order.py
+2025-07-07 01:52:00,565 [INFO] ✅ Generated Pydantic schema: schemas/user.py
+2025-07-07 01:52:00,640 [INFO] ✅ generate_pydantic.py completed successfully
+2025-07-07 01:52:00,640 [INFO] 🚀 Running generate_routes.py...
+2025-07-07 01:52:01,211 [INFO] 📄 Loaded openapi3.yaml successfully.
+2025-07-07 01:52:01,213 [INFO] ✅ Extracted 6 models and 21 routes.
+2025-07-07 01:52:01,225 [INFO] ✅ Generated route: routes/apiresponse.py
+2025-07-07 01:52:01,225 [INFO] ℹ️ Skipped Category: no associated routes.
+2025-07-07 01:52:01,225 [INFO] ✅ Generated route: routes/pet.py
+2025-07-07 01:52:01,225 [INFO] ℹ️ Skipped Tag: no associated routes.
+2025-07-07 01:52:01,225 [INFO] ✅ Generated route: routes/order.py
+2025-07-07 01:52:01,225 [INFO] ✅ Generated route: routes/user.py
+2025-07-07 01:52:01,294 [INFO] ✅ generate_routes.py completed successfully
+2025-07-07 01:52:01,294 [INFO] 🚀 Running generate_main.py...
+2025-07-07 01:52:01,405 [INFO] ✅ Generated dynamic main.py
+2025-07-07 01:52:01,405 [ERROR] ❌ Failed to generate main.py: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-07-07 01:52:01,407 [ERROR] ❌ generate_main.py failed: Traceback (most recent call last):
+  File "D:\OpenAPI\generate_main.py", line 164, in generate_main
+    print("\u2705 Generated dynamic main.py")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\OpenAPI\generate_main.py", line 171, in <module>
+    generate_main()
+  File "D:\OpenAPI\generate_main.py", line 168, in generate_main
+    print(f"\u274c Failed to generate main.py: {e}")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+2025-07-07 01:52:01,419 [INFO] 🚀 Running generate_tests.py...
+2025-07-07 01:52:02,080 [INFO] ✅ Loaded openapi3.yaml successfully.
+2025-07-07 01:52:02,080 [INFO] ✅ Extracted 6 models.
+2025-07-07 01:52:02,090 [INFO] ✅ Generated test file: tests/test_apiresponse.py
+2025-07-07 01:52:02,090 [INFO] ✅ Generated test file: tests/test_category.py
+2025-07-07 01:52:02,092 [INFO] ✅ Generated test file: tests/test_pet.py
+2025-07-07 01:52:02,092 [INFO] ✅ Generated test file: tests/test_tag.py
+2025-07-07 01:52:02,094 [INFO] ✅ Generated test file: tests/test_order.py
+2025-07-07 01:52:02,094 [INFO] ✅ Generated test file: tests/test_user.py
+2025-07-07 01:52:02,148 [INFO] ✅ generate_tests.py completed successfully
+2025-07-07 01:52:02,148 [INFO] 🧪 Testing generated code...
+2025-07-07 01:52:03,077 [ERROR] ❌ Import test failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\OpenAPI\main.py", line 136, in <module>
+    print("\U0001f527 Creating dynamic FastAPI app...")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f527' in position 0: character maps to <undefined>
+
+2025-07-07 01:52:03,077 [INFO] 🎉 Pipeline completed!
+2025-07-07 01:52:26,681 [INFO] ✅ Generated dynamic main.py

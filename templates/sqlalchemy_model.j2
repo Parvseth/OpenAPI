@@ -1,0 +1,20 @@
+from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Date, Text, Enum
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.dialects.postgresql import ARRAY, JSON
+from db import Base
+
+{% set enum_imports = model.fields | selectattr("enum_class") | map(attribute="enum_class") | unique | list %}
+{% if enum_imports %}
+from schemas.enums import {{ enum_imports | join(', ') }}
+{% endif %}
+
+
+
+class {{ model.name }}(Base):
+    __tablename__ = '{{ model.name.lower() }}'
+
+{% for field in model.fields %}
+    {{ field.name }} = Column(
+        {{ field.sqla_type }}{% if field.is_primary %}, primary_key=True{% endif %}
+    )
+{% endfor %}
